@@ -1,7 +1,8 @@
 import axios from "axios"
 const ServerURL="http://192.168.1.62:5000" 
-// const ServerURL="http://10.0.2.2:5000"    
 
+// const ServerURL="http://10.0.2.2:5000"    
+//mohit
 //,{headers:{Authorization: "Bearer "+localStorage.getItem("TOKEN") }}
 const getData=async(url)=>{
 try{  console.log(`${ServerURL}/${url}`)  
